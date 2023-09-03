@@ -30,7 +30,7 @@ pub fn build(b: *std.build.Builder) void {
 
     inline for (&.{ "inc", "bren/inc" }) |include_dir| {
         lib.addIncludePath(.{ .path = include_dir });
-        lib.installHeadersDirectory(include_dir, "");
+        lib.installHeadersDirectory(include_dir, "core");
     }
 
     lib.addCSourceFiles(engine_sources, engine_cflags);
