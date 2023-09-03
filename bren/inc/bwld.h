@@ -75,8 +75,8 @@ class BWLD : public BWLD_PAR
     void _CleanWorkingBuffers(void);
     static int BR_CALLBACK _FFilter(BACT *pbact, PBMDL pbmdl, PBMTL pbmtl, BVEC3 *pbvec3RayPos, BVEC3 *pbvec3RayDir,
                                     BRS dzpNear, BRS dzpFar, void *pbwld);
-    static void BR_CALLBACK _ActorRendered(PBACT pbact, PBMDL pbmdl, PBMTL pbmtl, br_uint_8 bStyle,
-                                           br_matrix4 *pbmat4ModelToScreen, br_int_32 bounds[4]);
+    static void BR_CALLBACK _ActorRendered(PBACT pbact, PBMDL pbmdl, PBMTL pbmtl, void *pbrenderData,
+                                            br_uint_8 bStyle, br_matrix4 *pbmat4ModelToScreen, br_int_32 bounds[4]);
 
   public:
     // Constructors and destructors
