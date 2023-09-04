@@ -1,5 +1,5 @@
 .{
-    .name = "open3dmm-engine",
+    .name = "open3dmm-core",
     .version = "0.0.0",
     .dependencies = .{
         .kauai = .{
