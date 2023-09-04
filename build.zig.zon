@@ -4,7 +4,7 @@
     .dependencies = .{
         .kauai = .{
             .url = "https://github.com/Jayrod246/kauai/archive/refs/heads/main.tar.gz",
-            .hash = "12202a9dbb951ef3cf6f34ec1013720a88b07a0bce0371ead492a8c765e10a37fe6b",
+            .hash = "12203d7d5f819daf68e65131656588ced79675ee493f06fc6c6114eb5737cc0a43ce",
         },
         .brender = .{
             .url = "https://github.com/Jayrod246/brender/archive/refs/heads/main.tar.gz",
