@@ -8,7 +8,7 @@
         },
         .brender = .{
             .url = "https://github.com/Jayrod246/brender/archive/refs/heads/main.tar.gz",
-            .hash = "1220146b0c16e405fbdcda9ba390f61510f993ad71679d5285e0c6a608e9f056b29d",
+            .hash = "12202c4023f882b6157cd697d424cf39b28d03eedddbba4e9720cd40ca8da5b95be7",
         },
     },
 }
