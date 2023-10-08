@@ -3,11 +3,11 @@
     .version = "0.0.0",
     .dependencies = .{
         .kauai = .{
-            .url = "https://github.com/Jayrod246/kauai/archive/refs/e4aa187b6f2a65fe920e9a318181cbf82aaabb5a/main.tar.gz",
+            .url = "https://github.com/Jayrod246/kauai/archive/e4aa187b6f2a65fe920e9a318181cbf82aaabb5a.tar.gz",
             .hash = "122058de7fe3595f139af5810ef10ea9924ddf3d5c713961ae0c16dd74630b3c0fe7",
         },
         .brender = .{
-            .url = "https://github.com/Jayrod246/brender/archive/refs/heads/3766bb110ec945210f830c6ab4977cba2c9464f8.tar.gz",
+            .url = "https://github.com/Jayrod246/brender/archive/3766bb110ec945210f830c6ab4977cba2c9464f8.tar.gz",
             .hash = "12204dee6d37058b2c835a58ec685caf99fa2f8364cc08de62514734e9f2e8d1afec",
         },
     },
