@@ -33,7 +33,7 @@ pub fn build(b: *std.build.Builder) void {
         lib.installHeadersDirectory(include_dir, "core");
     }
 
-    lib.addCSourceFiles(engine_sources, engine_cflags);
+    lib.addCSourceFiles(.{ .files = engine_sources, .flags = engine_cflags });
     b.installArtifact(lib);
 }
 

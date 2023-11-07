@@ -3,12 +3,21 @@
     .version = "0.0.0",
     .dependencies = .{
         .kauai = .{
-            .url = "https://github.com/Jayrod246/kauai/archive/e4aa187b6f2a65fe920e9a318181cbf82aaabb5a.tar.gz",
-            .hash = "122058de7fe3595f139af5810ef10ea9924ddf3d5c713961ae0c16dd74630b3c0fe7",
+            .url = "https://github.com/Jayrod246/kauai/archive/37abf5b6d2c83ec1f6fb4d127e96553d76a88ff5.tar.gz",
+            .hash = "1220d1bab03f363aa00cbc220a9caca9a3c8e145af5b8ee002ed9b074e4bb29c649d",
         },
         .brender = .{
-            .url = "https://github.com/Jayrod246/brender/archive/3766bb110ec945210f830c6ab4977cba2c9464f8.tar.gz",
-            .hash = "12204dee6d37058b2c835a58ec685caf99fa2f8364cc08de62514734e9f2e8d1afec",
+            .url = "https://github.com/Jayrod246/brender/archive/c37a3286db84ff07c7001663367452289296bd97.tar.gz",
+            .hash = "1220b0216f77e66f8b8e1592f456b4aa1494b091d48387326b8855ff5587bcfb66ef",
         },
+    },
+    .paths = .{
+        "bren",
+        "inc",
+        "src",
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+        "README.md",
     },
 }
