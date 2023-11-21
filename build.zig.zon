@@ -3,8 +3,8 @@
     .version = "0.0.0",
     .dependencies = .{
         .kauai = .{
-            .url = "https://github.com/Jayrod246/kauai/archive/37abf5b6d2c83ec1f6fb4d127e96553d76a88ff5.tar.gz",
-            .hash = "1220d1bab03f363aa00cbc220a9caca9a3c8e145af5b8ee002ed9b074e4bb29c649d",
+            .url = "https://github.com/Jayrod246/kauai/archive/79a665fec3c53cf31251d6dafda86434dcab5c20.tar.gz",
+            .hash = "12206d27e76d1cf84a05c343ca0cf74690fbf56d22c1e6c3112fbdb2f9da179fd69f",
         },
         .brender = .{
             .url = "https://github.com/Jayrod246/brender/archive/c37a3286db84ff07c7001663367452289296bd97.tar.gz",
