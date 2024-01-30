@@ -1,6 +1,6 @@
 const std = @import("std");
 
-pub fn build(b: *std.build.Builder) void {
+pub fn build(b: *std.Build) void {
     const target = b.standardTargetOptions(.{});
     const optimize = b.standardOptimizeOption(.{});
 
@@ -20,7 +20,7 @@ pub fn build(b: *std.build.Builder) void {
         .optimize = optimize,
         .link_libc = true,
     });
-    lib.disable_sanitize_c = true;
+    lib.root_module.sanitize_c = false;
 
     lib.linkLibrary(brender_dep.artifact("brender"));
     lib.installLibraryHeaders(brender_dep.artifact("brender"));
