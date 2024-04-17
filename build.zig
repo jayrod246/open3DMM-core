@@ -29,8 +29,8 @@ pub fn build(b: *std.Build) void {
     lib.installLibraryHeaders(kauai_dep.artifact("kauai"));
 
     inline for (&.{ "inc", "bren/inc" }) |include_dir| {
-        lib.addIncludePath(.{ .path = include_dir });
-        lib.installHeadersDirectory(.{ .path = include_dir }, "core", .{});
+        lib.addIncludePath(b.path(include_dir));
+        lib.installHeadersDirectory(b.path(include_dir), "core", .{});
     }
 
     lib.addCSourceFiles(.{ .files = engine_sources, .flags = engine_cflags });
