@@ -7077,6 +7077,7 @@ void MVU::_MouseDown(CMD_MOUSE *pcmd)
         {
 
             vpappb->HideCurs();
+            WarpCursToCenter();
 
             //
             // Create an actor undo object
